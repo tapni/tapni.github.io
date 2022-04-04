@@ -1,3 +1,8 @@
+button {
+  width: 10em;
+  height:3em;
+}
+
 * {
   box-sizing: border-box;
 }
