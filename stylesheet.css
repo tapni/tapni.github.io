@@ -24,6 +24,15 @@ a {
   margin: 0 auto;
 }
 
+/* シンプル 枠 1*/
+.kakomi-box1 {
+ margin: 2em auto;
+ padding: 1em;
+ width: 90%;
+ background-color: #fff; /* 背景色 */
+ border: 1px solid #ccc; /* 枠線 */
+}
+
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(top.png);
