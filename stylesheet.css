@@ -27,3 +27,4 @@ nav{
   box-sizing: border-box;
 }
 
+ background-repeat: no-repeat; /* 背景画像を繰り返し表示しません。 */
