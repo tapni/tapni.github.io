@@ -1,6 +1,6 @@
 button {
   width: 10em;
-  height:4em;
+  height:3em;
 }
 
 nav{
@@ -27,4 +27,7 @@ nav{
   box-sizing: border-box;
 }
 
- background-repeat: no-repeat; /* 背景画像を繰り返し表示しません。 */
+ body {
+  background-image: url("https://into-the-program.com/cms/wp-content/webp-express/webp-images/uploads/overlay-gradient-background-image.jpg.webp");
+  background-size: cover;
+}
