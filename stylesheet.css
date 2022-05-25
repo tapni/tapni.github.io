@@ -20,3 +20,37 @@ nav{
   background-image: url("https://into-the-program.com/cms/wp-content/webp-express/webp-images/uploads/overlay-gradient-background-image.jpg.webp");
   background-size: cover;
 }
+
+/* bodyタグ */
+body {
+  text-align: center; /* 全ての要素を真ん中に */
+  padding: 50px 0; /* 上下の空白を指定 */
+}
+
+.box2 {
+    padding: 0.5em 0.5em;
+    margin: 1em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 5px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+ padding: 0;
+}
+
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
