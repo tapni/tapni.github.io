@@ -62,12 +62,13 @@ body {
   text-align: center;
   line-height: 100vh;
 }
-/* ブロック共通初期設定 */
-.scroll-block {
-  width: 50%;
-  height: 500px;
-  margin: 0 auto 400px;
-  line-height: 500px;
-  text-align: center;
-  background-color: lightcoral;
-}
+
+#topbutton {
+    /* ▼ボタンの表示位置を画面の右下に固定 */
+    position: fixed; /* ➁  表示場所を固定 */
+    bottom: 10px; /* 画面下端からの距離 */
+    right: 30px; /* 画面右端からの距離 */
+    oppacity: 0; /* ➂  ▼最初は非表示に */
+    z-index: 10000; /* 前面に表示 */
+  }
+CSS
