@@ -54,3 +54,20 @@ body {
     margin: 0; 
     padding: 0;
 }
+
+.top {
+  height: 100vh;
+}
+.title {
+  text-align: center;
+  line-height: 100vh;
+}
+/* ブロック共通初期設定 */
+.scroll-block {
+  width: 50%;
+  height: 500px;
+  margin: 0 auto 400px;
+  line-height: 500px;
+  text-align: center;
+  background-color: lightcoral;
+}
